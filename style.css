@@ -143,3 +143,44 @@
     padding-left:10px;
     font-size:15px;
 }
+/**panel**/
+.panel{
+    background-color: rgb(101, 101, 101);
+    height:40px;
+    display:flex;
+    color: white;
+    align-items:center;
+    justify-content: space-evenly;
+
+}
+.panel_options p{
+    display:inline;
+    font-family: 0.85rem;
+    margin:5%;
+}
+.panel_options{
+    width:95%;
+
+}
+.hero{
+    background-image: url(heroimage.jpg);
+    height:600px;
+    background-size:cover;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+
+
+}
+.hero_txt{
+    height: 40px;
+    text-align: center;
+    background-color: white;
+    font-size: 0.85rem;
+    bottom:25px;
+    position: relative;
+
+
+
+}
